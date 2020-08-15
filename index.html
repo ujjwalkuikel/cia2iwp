@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concept One</title>
+</head>
+<style type="text/css">
+	.home{
+		background-image: linear-gradient(
+      115deg,
+      rgba(233, 212, 96, 1),
+      rgba(244, 208, 63, 0.5)
+    ),
+    url(one.jpg);
+    height: 100vh;
+    margin: -10px;
+    margin-top: 10px;
+   }
+   ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  font-size: 18px;
+  background-color: orange;
+  margin: -10px;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgba(244, 208, 116, 0.5);
+
+	}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 5px;
+  margin-top: 60px;
+}
+.column1 {
+  flex: 50%;
+  padding: 5px;
+  text-align: center;
+  margin-top: 150px;
+}
+h1{
+	font-size: 4em;
+	text-shadow: 2px 2px orange;
+}
+.int{
+	font-size: 3em;
+	text-shadow: none;
+	font-family: Dungeon;
+}
+.disapper{
+	font-family: Comic Sans MS;
+	font-size: 2.5em;
+	animation: fade 10s infinite 0s;
+}
+
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+  body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-right: 0;
+  
+}
+
+
+
+
+
+
+
+</style>
+<body>
+
+	<ul>
+ 
+  
+  
+  <li><a href="preorder.html">Preorder</a></li>
+  <li><a href="survey.html" >Survey</a></li>
+  <li><a href="key.html">Key Features</a></li>
+   <li><a  href="index.html" class="active">Home</a></li>
+   
+
+</ul>
+<div class="home">
+<div class="row">
+  <div class="column">
+    <img src="one3.png">
+  </div>
+  <div class="column">
+    <img src="one4.png">
+  </div>
+  <div class="column1">
+    <h1 align="center" class="int">Introducing</h1>
+     <h1 align="center">Oneplus Concept One</h1>
+    <p class="disapper" >with disappearing camera</p>
+    
+  </div>
+</div>
+</div>
+
+</body>
+</html>
